@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Simulador Interactivo</title>
+</head>
+<body>
+    <h1>Simulador de Cálculo de Costos</h1>
+
+    <!-- Entrada de datos -->
+    <label for="precio">Precio del Producto:</label>
+    <input type="number" id="precio" placeholder="Ingrese el precio"><br>
+
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" placeholder="Ingrese la cantidad"><br>
+
+    <label for="descuento">Descuento (%):</label>
+    <input type="number" id="descuento" placeholder="Ingrese el descuento"><br>
+
+    <button onclick="calcularCosto()">Calcular Costo Total</button>
+
+    <!-- Resultado -->
+    <h2>Costo Total: <span id="resultado"></span></h2>
+
+    <!-- Referencia al archivo JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
